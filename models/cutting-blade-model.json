@@ -1,0 +1,32 @@
+{
+    "assetModelHierarchies": [],
+    "assetModelDescription": "Cutting Blade Model Template",
+    "assetModelName": "CuttingBladeModel",
+    "assetModelProperties": [
+        {
+            "dataType": "DOUBLE",
+            "type": {
+                "measurement": {}
+            },
+            "unit": "C",
+            "name": "Temperature"
+        },
+        {
+            "dataType": "INTEGER",
+            "type": {
+                "measurement": {}
+            },
+            "unit": "cuts",
+            "name": "Speed"
+        },
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "CuttingBlade"
+                }
+            },
+            "name": "Name"
+        }
+    ]
+}

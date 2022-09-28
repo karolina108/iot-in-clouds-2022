@@ -1,0 +1,24 @@
+{
+    "assetModelHierarchies": [],
+    "assetModelDescription": "Power Meter Model Template",
+    "assetModelName": "PowerMeterModel",
+    "assetModelProperties": [
+        {
+            "dataType": "DOUBLE",
+            "type": {
+                "measurement": {}
+            },
+            "unit": "kWh",
+            "name": "PowerUsage"
+        },
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "PowerMeter"
+                }
+            },
+            "name": "Name"
+        }
+    ]
+}

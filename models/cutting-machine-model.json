@@ -1,0 +1,60 @@
+{
+    "assetModelDescription": "Cutting Machine Model Template",
+    "assetModelName": "CuttingMachineModel",
+    "assetModelHierarchies": [
+        {
+            "childAssetModelId": "REPLACE_WITH_MODEL_ID",
+            "name": "CounterModel"
+        },
+        {
+            "childAssetModelId": "REPLACE_WITH_MODEL_ID",
+            "name": "StatusMeterModel"
+        },
+        {
+            "childAssetModelId": "REPLACE_WITH_MODEL_ID",
+            "name": "PowerMeterModel"
+        },
+        {
+            "childAssetModelId": "REPLACE_WITH_MODEL_ID",
+            "name": "CuttingBladeModel"
+        }
+    ],
+    "assetModelProperties": [
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "CuttingMachineDEMO"
+                }
+            },
+            "name": "Name"
+        },
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "DEMO"
+                }
+            },
+            "name": "ProductionLine"
+        },
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "CM-DEMO"
+                }
+            },
+            "name": "Model"
+        },
+        {
+            "dataType": "INTEGER",
+            "type": {
+                "attribute": {
+                    "defaultValue": "200"
+                }
+            },
+            "name": "Ideal_Run_Rate"
+        }
+    ]
+}

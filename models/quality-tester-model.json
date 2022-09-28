@@ -1,0 +1,47 @@
+{
+    "assetModelDescription": "Quality Tester Model Template",
+    "assetModelName": "QualityMachineModel",
+    "assetModelHierarchies": [
+        {
+            "childAssetModelId": "REPLACE_WITH_MODEL_ID",
+            "name": "Tester"
+        },
+        {
+            "childAssetModelId": "REPLACE_WITH_MODEL_ID",
+            "name": "Tester"
+        },
+        {
+            "childAssetModelId": "REPLACE_WITH_MODEL_ID",
+            "name": "Tester"
+        }
+    ],
+    "assetModelProperties": [
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "QualityTesterDEMO"
+                }
+            },
+            "name": "Name"
+        },
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "DEMO"
+                }
+            },
+            "name": "ProductionLine"
+        },
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "QT-DEMO"
+                }
+            },
+            "name": "Model"
+        }
+    ]
+}

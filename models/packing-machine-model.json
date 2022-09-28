@@ -1,0 +1,56 @@
+{
+    "assetModelDescription": "Packing Machine Model Template",
+    "assetModelName": "PackingMachineModel",
+    "assetModelHierarchies": [
+        {
+            "childAssetModelId": "REPLACE_WITH_MODEL_ID",
+            "name": "CounterModel"
+        },
+        {
+            "childAssetModelId": "REPLACE_WITH_MODEL_ID",
+            "name": "StatusMeterModel"
+        },
+        {
+            "childAssetModelId": "REPLACE_WITH_MODEL_ID",
+            "name": "PowerMeterModel"
+        }
+    ],
+    "assetModelProperties": [
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "PackingMachineDEMO"
+                }
+            },
+            "name": "Name"
+        },
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "DEMO"
+                }
+            },
+            "name": "ProductionLine"
+        },
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "PM-DEMO"
+                }
+            },
+            "name": "Model"
+        },
+        {
+            "dataType": "INTEGER",
+            "type": {
+                "attribute": {
+                    "defaultValue": "5"
+                }
+            },
+            "name": "Ideal_Run_Rate"
+        }
+    ]
+}

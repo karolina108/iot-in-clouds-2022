@@ -1,0 +1,56 @@
+{
+    "assetModelDescription": "Wrapping Machine Model Template",
+    "assetModelName": "WrappingMachineModel",
+    "assetModelHierarchies": [
+        {
+            "childAssetModelId": "REPLACE_WITH_MODEL_ID",
+            "name": "CounterModel"
+        },
+        {
+            "childAssetModelId": "REPLACE_WITH_MODEL_ID",
+            "name": "StatusMeterModel"
+        },
+        {
+            "childAssetModelId": "REPLACE_WITH_MODEL_ID",
+            "name": "PowerMeterModel"
+        }
+    ],
+    "assetModelProperties": [
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "WrappingMachineDEMO"
+                }
+            },
+            "name": "Name"
+        },
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "DEMO"
+                }
+            },
+            "name": "ProductionLine"
+        },
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "WM-DEMO"
+                }
+            },
+            "name": "Model"
+        },
+        {
+            "dataType": "INTEGER",
+            "type": {
+                "attribute": {
+                    "defaultValue": "200"
+                }
+            },
+            "name": "Ideal_Run_Rate"
+        }
+    ]
+}

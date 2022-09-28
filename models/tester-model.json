@@ -1,0 +1,24 @@
+{
+    "assetModelHierarchies": [],
+    "assetModelDescription": "Tester Model Template",
+    "assetModelName": "TesterModel",
+    "assetModelProperties": [
+        {
+            "dataType": "INTEGER",
+            "type": {
+                "measurement": {}
+            },
+            "unit": "pcs",
+            "name": "Fault_Items"
+        },
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "Tester"
+                }
+            },
+            "name": "Name"
+        }
+    ]
+}

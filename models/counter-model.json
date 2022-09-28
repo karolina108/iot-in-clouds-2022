@@ -1,0 +1,24 @@
+{
+    "assetModelHierarchies": [],
+    "assetModelDescription": "Counter Model Template",
+    "assetModelName": "CounterModel",
+    "assetModelProperties": [
+        {
+            "dataType": "INTEGER",
+            "type": {
+                "measurement": {}
+            },
+            "unit": "pcs",
+            "name": "Count"
+        },
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "Counter"
+                }
+            },
+            "name": "Name"
+        }
+    ]
+}

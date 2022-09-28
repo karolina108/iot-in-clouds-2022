@@ -1,0 +1,24 @@
+{
+    "assetModelHierarchies": [],
+    "assetModelDescription": "Status Model Template",
+    "assetModelName": "StatusMeterModel",
+    "assetModelProperties": [
+        {
+            "dataType": "INTEGER",
+            "type": {
+                "measurement": {}
+            },
+            "unit": "jm",
+            "name": "Status"
+        },
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "StatusMeter"
+                }
+            },
+            "name": "Name"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "assetModelDescription": "Production Line Model Template",
+    "assetModelName": "ProductionLineModel",
+    "assetModelHierarchies": [
+        {
+            "childAssetModelId": "REPLACE_WITH_MODEL_ID",
+            "name": "CuttingMachineModel"
+        },
+        {
+            "childAssetModelId": "REPLACE_WITH_MODEL_ID",
+            "name": "WrappingMachineModel"
+        },
+        {
+            "childAssetModelId": "REPLACE_WITH_MODEL_ID",
+            "name": "PackingMachineModel"
+        }
+    ],
+    "assetModelProperties": [
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "ProductionLineDEMO"
+                }
+            },
+            "name": "Name"
+        },
+        {
+            "dataType": "STRING",
+            "type": {
+                "attribute": {
+                    "defaultValue": "Warsaw"
+                }
+            },
+            "name": "Location"
+        }
+    ]
+}
